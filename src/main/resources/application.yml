@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: java17-spring-boot-postgresql-reference
+  datasource:
+    url: jdbc:postgresql://db:5432/demo
+    username: demo
+    password: demo
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
